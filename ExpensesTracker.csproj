@@ -6,4 +6,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Charts" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Inputs" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Popups" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.StockChart" Version="27.1.53" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="27.1.53" />
+  </ItemGroup>
+
 </Project>
